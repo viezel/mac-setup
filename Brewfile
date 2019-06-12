@@ -50,7 +50,7 @@ cask 'charles'
 
 # Editors
 cask 'atom'
-brew 'visual-studio-code'
+#brew 'visual-studio-code'
 cask 'phpstorm'
 
 # Web Development
@@ -58,7 +58,7 @@ cask 'docker'
 brew 'composer'
 brew 'php-cs-fixer'
 brew 'yarn'
-cask 'medis'
+#cask 'medis'
 
 # Mobile dev
 cask 'android-studio'
