@@ -14,7 +14,6 @@ cask_args appdir: '/Applications'
 tap 'homebrew/core'
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap 'homebrew/completions'
 tap 'caskroom/cask'
 tap 'caskroom/eid'
 tap 'caskroom/fonts'
@@ -43,7 +42,6 @@ cask 'java'
 brew 'node'
 cask 'virtualbox'
 cask 'vagrant'
-cask 'phpstorm'
 cask 'sequel-pro'
 cask 'postman'
 cask 'sourcetree'
@@ -53,6 +51,7 @@ cask 'charles'
 # Editors
 cask 'atom'
 brew 'visual-studio-code'
+cask 'phpstorm'
 
 # Web Development
 cask 'docker'
