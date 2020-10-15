@@ -11,13 +11,11 @@
 
 cask_args appdir: '/Applications'
 
-tap 'homebrew/core'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap 'caskroom/cask'
-tap 'caskroom/eid'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
 
 # Binaries
 brew 'curl'
@@ -34,58 +32,47 @@ brew 'graphicsmagick'
 brew 'imagemagick'
 brew "ghostscript"
 
-#  Casks
-
 # Development
 brew 'php'
-cask 'java'
+brew 'composer'
 brew 'node'
 cask 'sequel-pro'
 cask 'postman'
 cask 'sourcetree'
 brew 'awscli'
-#cask 'charles'
+cask 'docker'
 
 # Editors
 cask 'atom'
 #brew 'visual-studio-code'
 cask 'phpstorm'
 
-# Web Development
-cask 'docker'
-brew 'composer'
-
-
-
-
 # applications
 cask 'slack'
 cask 'vlc'
 cask 'clipmenu'
-cask 'skype'
-cask 'teamviewer'
 cask 'spotify'
 cask 'google-chrome'
 cask 'firefox'
 cask 'filezilla'
 cask 'the-unarchiver'
+cask 'tinkerwell'
+cask 'discord'
+
+# media
 cask 'imagealpha'
 cask 'imageoptim'
-
+brew 'jpegoptim'
+brew 'optipng'
+brew 'pngquant'
+brew 'svgo'
 
 # quicklock plugins
 cask 'qlcolorcode'
-cask 'qlstephen'
 cask 'qlmarkdown'
 cask 'quicklook-json'
-cask 'qlprettypatch'
 cask 'quicklook-csv'
-cask 'provisionql'
-cask 'quicklookapk'
-cask 'epubquicklook'
-cask 'betterzipql'
-cask 'webpquicklook'
-cask 'suspicious-package'
+cask 'qlstephen'
 
 # Fonts
 cask 'font-devicons'
