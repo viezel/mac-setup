@@ -40,13 +40,11 @@ brew "ghostscript"
 brew 'php'
 cask 'java'
 brew 'node'
-cask 'virtualbox'
-cask 'vagrant'
 cask 'sequel-pro'
 cask 'postman'
 cask 'sourcetree'
 brew 'awscli'
-cask 'charles'
+#cask 'charles'
 
 # Editors
 cask 'atom'
@@ -56,13 +54,8 @@ cask 'phpstorm'
 # Web Development
 cask 'docker'
 brew 'composer'
-brew 'php-cs-fixer'
-brew 'yarn'
-#cask 'medis'
 
-# Mobile dev
-cask 'android-studio'
-cask 'fastlane'
+
 
 
 # applications
@@ -74,14 +67,11 @@ cask 'teamviewer'
 cask 'spotify'
 cask 'google-chrome'
 cask 'firefox'
-cask 'dropbox'
 cask 'filezilla'
 cask 'the-unarchiver'
 cask 'imagealpha'
 cask 'imageoptim'
 
-# LastPass is a password manager
-cask 'lastpass'
 
 # quicklock plugins
 cask 'qlcolorcode'
@@ -111,11 +101,3 @@ cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
-
-# App Store applications
-mas 'Xcode', id: 497799835
-mas 'Wunderlist', id: 410628904
-mas 'vSSH', id: 583272886
-mas 'Promotee', id: 578071639
-mas 'PHP Runner', id: 686855602
-mas "io.realm.realmbrowser", id: 1007457278
